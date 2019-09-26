@@ -1,11 +1,11 @@
-FROM gcr.io/cloud-builders/kubectl@sha256:03956a3d73edf59d62894a38d70ed4b33a409a33a872541928358697a16b1bdb
+FROM gcr.io/cloud-builders/kubectl@sha256:abeaf7bd496e66301f92fd884683feaec6894bfb12d1a02fdbc98a920fab4968
 
-LABEL "name"="gcloud"
-LABEL "version"="1.0.1"
+LABEL "name"="kubectl"
+LABEL "version"="0.0.1"
 LABEL "maintainer"="GitHub Actions <support+actions@github.com>"
 
-LABEL "com.github.actions.name"="GitHub Action for Google Cloud"
-LABEL "com.github.actions.description"="Wraps the GCloud SDK to enable common Google Cloud Platform commands."
+LABEL "com.github.actions.name"="GitHub Action for kubectl with GKE credential."
+LABEL "com.github.actions.description"="Wraps the kubectl set GKE credential."
 LABEL "com.github.actions.icon"="upload-cloud"
 LABEL "com.github.actions.color"="green"
 COPY LICENSE README.md THIRD_PARTY_NOTICE.md /
