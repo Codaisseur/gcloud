@@ -1,6 +1,6 @@
 MODULES=$(dir $(wildcard */Makefile))
 export ROOT_DIR=$(CURDIR)
-export DOCKER_REPO=github
+export DOCKER_REPO=docker.pkg.github.com/Codaisseur
 
 lint: ## Call the 'lint' target on all sub-modules
 	echo $(ROOT)
