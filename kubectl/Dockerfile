@@ -1,4 +1,4 @@
-FROM gcr.io/cloud-builders/kubectl@sha256:abeaf7bd496e66301f92fd884683feaec6894bfb12d1a02fdbc98a920fab4968
+FROM gcr.io/cloud-builders/kubectl@sha256:7096f1bfbb1b7bb3445f8bd6f2e07f137bb12c7864111b6f361b2a93ec59a587
 
 LABEL "name"="kubectl"
 LABEL "version"="0.0.1"
